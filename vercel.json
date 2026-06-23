@@ -1,0 +1,20 @@
+// ============ vercel.json (place in project root) ============
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/api/bypass",
+      "dest": "/api/bypass.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/bypass.js"
+    }
+  ],
+  "functions": {
+    "api/bypass.js": {
+      "maxDuration": 10,
+      "memory": 1024
+    }
+  }
+}
