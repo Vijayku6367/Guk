@@ -1,0 +1,8 @@
+{
+  "name": "paywall-bypass-vercel",
+  "version": "1.0.0",
+  "dependencies": {
+    "socks-proxy-agent": "^8.0.2",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
